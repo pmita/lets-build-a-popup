@@ -63,8 +63,8 @@ main h1 {
 }
 
 .container-content {
-  min-height: 30vh;
-  min-width: 40vw;
+  min-height: 20vh;
+  min-width: 30vw;
   background: white;
   color: black;
   display: flex;
@@ -78,4 +78,32 @@ main h1 {
   position: absolute;
   right: 10%;
   top: 10%;
+  font-size: 2.2rem;
+  color: rgba(146, 145, 145, 0.3);
+}
+
+.exit:hover {
+  cursor: pointer;
+}
+
+.actions-section {
+}
+
+.actions-section input {
+  outline: none;
+  border: 2px solid black;
+  padding: 10px 0;
+}
+
+.subscribe {
+  border: none;
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.subscribe:hover {
+  background: #228622;
+  color: black;
 }
